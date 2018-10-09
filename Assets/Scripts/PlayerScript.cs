@@ -11,7 +11,7 @@ public class PlayerScript : MonoBehaviour {
   [SerializeField]
   private float range, cursorHeight;
   [SerializeField]
-  private bool interacting;
+  private bool interacting, controlling;
   private Animator anim;
   private Rigidbody rb;
   private bool moving;
@@ -23,30 +23,46 @@ public class PlayerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-    xaxis = Input.GetAxisRaw("Horizontal");
-    zaxis = Input.GetAxisRaw("Vertical");
-    moving = (xaxis != 0 || zaxis != 0);
-    anim.SetFloat("XAxis", xaxis);
-    anim.SetFloat("ZAxis", zaxis);
-    anim.SetBool("Moving", moving);
-
-    if(moving == true){
-      anim.SetFloat("LastX", xaxis);
-      lastx = xaxis;
-      anim.SetFloat("LastZ", zaxis);
-      lastz = zaxis;
-      SearchInteractables();
+    if (controlling){
+      Move();
     }
-
-    if(lastx == -1){
-      GetComponent<SpriteRenderer>().flipX = true;
-    } else {
-      GetComponent<SpriteRenderer>().flipX = false;
+    if(interacting){
+      GetComponent<Rigidbody>().velocity = Vector3.zero;
+      Interact();
     }
-
-    rb.AddForce(movespeed * Time.deltaTime * zaxis * transform.forward, ForceMode.VelocityChange);
-    rb.AddForce(movespeed * Time.deltaTime * xaxis * transform.right, ForceMode.VelocityChange);
 	}
+
+  void Move(){
+      xaxis = Input.GetAxisRaw("Horizontal");
+      zaxis = Input.GetAxisRaw("Vertical");
+      moving = (xaxis != 0 || zaxis != 0);
+      anim.SetFloat("XAxis", xaxis);
+      anim.SetFloat("ZAxis", zaxis);
+      anim.SetBool("Moving", moving);
+
+      if(moving == true){
+        anim.SetFloat("LastX", xaxis);
+        lastx = xaxis;
+        anim.SetFloat("LastZ", zaxis);
+        lastz = zaxis;
+        SearchInteractables();
+      }
+
+      if(lastx == -1){
+        GetComponent<SpriteRenderer>().flipX = true;
+      } else {
+        GetComponent<SpriteRenderer>().flipX = false;
+      }
+
+      rb.AddForce(movespeed * Time.deltaTime * zaxis * transform.forward, ForceMode.VelocityChange);
+      rb.AddForce(movespeed * Time.deltaTime * xaxis * transform.right, ForceMode.VelocityChange);
+  }
+
+  void Interact(){
+    if (Input.GetButtonUp("Fire1")){
+
+    }
+  }
 
   void SearchInteractables(){
     var collidersInRange = Physics.OverlapSphere(transform.position, range);
