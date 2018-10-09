@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
 
 public class PlayerScript : MonoBehaviour {
 
@@ -10,8 +11,10 @@ public class PlayerScript : MonoBehaviour {
   private GameObject nearestInteractable, cursor;
   [SerializeField]
   private float range, cursorHeight;
-  [SerializeField]
-  private bool interacting, controlling;
+  [SerializeField] 
+  private bool interacting, controlling, inMenu;
+  [SerializeField] 
+  public Flowchart mainFlowchart;
   private Animator anim;
   private Rigidbody rb;
   private bool moving;
@@ -19,15 +22,18 @@ public class PlayerScript : MonoBehaviour {
 	void Start () {
 		anim = GetComponent<Animator>();
     rb = GetComponent<Rigidbody>();
+    SearchInteractables();
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+    if(inMenu){
+      return;
+    }
     if (controlling){
       Move();
     }
-    if(interacting){
-      GetComponent<Rigidbody>().velocity = Vector3.zero;
+    if(!interacting && Input.GetButtonDown("Fire1") && nearestInteractable != null){
       Interact();
     }
 	}
@@ -59,16 +65,27 @@ public class PlayerScript : MonoBehaviour {
   }
 
   void Interact(){
-    if (Input.GetButtonUp("Fire1")){
-
+    Flowchart flowchart = nearestInteractable.GetComponent<Flowchart>();
+    if(flowchart != null){
+      interacting = true;
+      controlling = false;
+      GetComponent<Rigidbody>().velocity = Vector3.zero;
+      cursor.SetActive(false);
+      flowchart.ExecuteBlock("Start");
     }
+  }
+
+  void EndInteract(){
+    interacting = false;
+    controlling = true;
+    nearestInteractable = null;
+    SearchInteractables();
   }
 
   void SearchInteractables(){
     var collidersInRange = Physics.OverlapSphere(transform.position, range);
-    if(!interacting || collidersInRange.Length == 0){
+    if(interacting || collidersInRange.Length == 0){
       cursor.SetActive(false);
-      Debug.Log("!interacting || collidersInRange.Length == 0");
       return;
     }
     float distance = range;
@@ -87,14 +104,12 @@ public class PlayerScript : MonoBehaviour {
     if(closestCollider == null){
       cursor.SetActive(false);
       nearestInteractable = null;
-      Debug.Log("closestCollider == null");
       return;
     }
     if(closestCollider.gameObject != nearestInteractable){
       nearestInteractable = closestCollider.gameObject;
       cursor.transform.position = new Vector3(nearestInteractable.transform.position.x, nearestInteractable.transform.position.y + cursorHeight, nearestInteractable.transform.position.z);
       cursor.SetActive(true);
-      Debug.Log("closestCollider.gameObject != nearestInteractable", nearestInteractable);
     }
   }
 }
