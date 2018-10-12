@@ -7,6 +7,10 @@ public class MoveTo : MonoBehaviour {
  
     public Transform goal;
 
+    void Start(){
+      goal = GameObject.FindWithTag("Player").GetComponent<Transform>();
+    }
+
     void Update()
     {
         NavMeshAgent agent = GetComponent<NavMeshAgent>();

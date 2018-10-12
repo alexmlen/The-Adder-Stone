@@ -8,12 +8,13 @@ public class Monster : MonoBehaviour {
     {
         if (collision.gameObject.tag == "projectile")
         {
+            collision.gameObject.tag = "Untagged";
             health--;
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
         }
         if(health <= 0)
         {
-            Destroy(this.gameObject);
+            Destroy(transform.parent.gameObject);
         }
     }
 }

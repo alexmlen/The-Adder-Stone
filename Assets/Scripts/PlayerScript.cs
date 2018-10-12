@@ -37,7 +37,7 @@ public class PlayerScript : MonoBehaviour {
     if (controlling){
       Move();
     }
-    if(!interacting && Input.GetButtonDown("Fire1") && nearestInteractable != null){
+    if(!interacting && Input.GetButtonDown("Fire3") && nearestInteractable != null){
       Interact();
     }
     if(Input.GetButtonDown("Fire1") && Input.GetButton("Fire2") && controlling){
@@ -49,6 +49,8 @@ public class PlayerScript : MonoBehaviour {
   void Shoot(){
     GameObject projectile = Instantiate(cube) as GameObject;
     projectile.transform.position = new Vector3(rb.transform.position.x, 1, rb.transform.position.z);
+
+    //projectile = projectile.transform.GetChild(0).gameObject;
 
     Ray cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
     Plane groundPlane = new Plane(Vector3.up, Vector3.zero);
