@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 9cce0189bd5f9ba44bf03a00582b06a5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: front_lick
+    21300002: front_hair
+    21300004: front_ulid
+    21300006: front_llid
+    21300008: front_re
+    21300010: front_le
+    21300012: front_rua
+    21300014: front_lua
+    21300016: front_rla
+    21300018: front_lla
+    21300020: front_head
+    21300022: front_rh
+    21300024: front_lh
+    21300026: front_body
+    21300028: front_hip
+    21300030: front_rul
+    21300032: front_rll
+    21300034: front_rf
+    21300036: front_lul
+    21300038: front_lll
+    21300040: front_lf
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 1
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: front_lick
+      rect:
+        serializedVersion: 2
+        x: 143.6459
+        y: 6730.316
+        width: 197.4707
+        height: 207.66357
+      alignment: 9
+      pivot: {x: 0.5259215, y: 0.530587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb758b15c1ec36648b589a09c5bff766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_hair
+      rect:
+        serializedVersion: 2
+        x: 1155.4896
+        y: 6347.989
+        width: 586.2987
+        height: 648.0718
+      alignment: 9
+      pivot: {x: 0.5006158, y: 0.51539236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f236d25479e5a4a8a6a389ca24e636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_ulid
+      rect:
+        serializedVersion: 2
+        x: 1261.8625
+        y: 6057.2944
+        width: 402.29993
+        height: 117.501465
+      alignment: 9
+      pivot: {x: 0.476355, y: 0.56344044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d10ae99f36ad7489154ad546e1e590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_llid
+      rect:
+        serializedVersion: 2
+        x: 1272.3909
+        y: 5801.429
+        width: 398.828
+        height: 110.56543
+      alignment: 9
+      pivot: {x: 0.4841915, y: 0.52974325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d77dc06151ebda40ad0a7db0f6a7af3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_re
+      rect:
+        serializedVersion: 2
+        x: 1256.531
+        y: 5442.1484
+        width: 211.58374
+        height: 204.63281
+      alignment: 9
+      pivot: {x: 0.42609447, y: 0.46538675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090ef89501265084ab556f76cfe2a23c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_le
+      rect:
+        serializedVersion: 2
+        x: 1610.2965
+        y: 5445.716
+        width: 211.58374
+        height: 197.68164
+      alignment: 9
+      pivot: {x: 0.5208516, y: 0.45165887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf51948bd7ec3f340945014401586b14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_rua
+      rect:
+        serializedVersion: 2
+        x: 326.87613
+        y: 5663.9604
+        width: 312.0361
+        height: 880.4136
+      alignment: 9
+      pivot: {x: 0.5131581, y: 0.5412678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3064ad940e67ada44b7b94c7e678a2a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_lua
+      rect:
+        serializedVersion: 2
+        x: 2116.4067
+        y: 5651.1826
+        width: 332.86597
+        height: 904.6885
+      alignment: 9
+      pivot: {x: 0.4644302, y: 0.48836413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab614da682517034e92a58a541e4b81f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_rla
+      rect:
+        serializedVersion: 2
+        x: 195.71414
+        y: 4672.994
+        width: 332.86618
+        height: 672.3462
+      alignment: 9
+      pivot: {x: 0.45900086, y: 0.4923146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4acac0f4b4808f4a9587badd88cf5a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_lla
+      rect:
+        serializedVersion: 2
+        x: 2257.8293
+        y: 4662.515
+        width: 329.39478
+        height: 634.2012
+      alignment: 9
+      pivot: {x: 0.66689175, y: 0.46197465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b614b8aa56826a5408b2bc39f96f6674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_head
+      rect:
+        serializedVersion: 2
+        x: 1288.3115
+        y: 4577.0645
+        width: 537.69543
+        height: 689.68506
+      alignment: 9
+      pivot: {x: 0.49691463, y: 0.5001348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f0927080382474bb3a95d4001db472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_rh
+      rect:
+        serializedVersion: 2
+        x: 215.22691
+        y: 3938.4565
+        width: 400.44464
+        height: 853.4165
+      alignment: 9
+      pivot: {x: 0.16924466, y: 0.26311067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547e3cca9b606eb4bac5d4f2a17fcea4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_lh
+      rect:
+        serializedVersion: 2
+        x: 2429.481
+        y: 3955.306
+        width: 134.98047
+        height: 446.94067
+      alignment: 9
+      pivot: {x: 0.45576435, y: 0.5239937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41566f8e9a49a649bc2bedc42b109cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_body
+      rect:
+        serializedVersion: 2
+        x: 1170.3501
+        y: 2887.331
+        width: 916.10815
+        height: 1431.7905
+      alignment: 9
+      pivot: {x: 0.50392526, y: 0.50298506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d034601b723ab4c47b15641b7f4ba8ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_hip
+      rect:
+        serializedVersion: 2
+        x: 1280.082
+        y: 2247.8953
+        width: 666.1472
+        height: 481.6184
+      alignment: 9
+      pivot: {x: 0.47799957, y: 0.4954223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2effbda6606c4d438682d78f28b9ab2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_rul
+      rect:
+        serializedVersion: 2
+        x: 406.22632
+        y: 2251.363
+        width: 374.5263
+        height: 1216.7881
+      alignment: 9
+      pivot: {x: 0.5120435, y: 0.49567953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5e0caa7cf7e3940a71ee86815476ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_rll
+      rect:
+        serializedVersion: 2
+        x: 477.8847
+        y: 944.97504
+        width: 239.1308
+        height: 1095.4158
+      alignment: 9
+      pivot: {x: 0.5169362, y: 0.500746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6545bc6249d60d04dbdffde9bf0a8229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_rf
+      rect:
+        serializedVersion: 2
+        x: 342.00696
+        y: 145.37888
+        width: 277.31934
+        height: 412.26273
+      alignment: 9
+      pivot: {x: 0.53906476, y: 0.53514695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e3b452087930c4ead021eb39aacd91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_lul
+      rect:
+        serializedVersion: 2
+        x: 2427.705
+        y: 2249.7043
+        width: 360.6394
+        height: 1234.1272
+      alignment: 9
+      pivot: {x: 0.5290476, y: 0.5253072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10feba68464058649aa5c07ae8812db1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_lll
+      rect:
+        serializedVersion: 2
+        x: 2454.504
+        y: 893.2901
+        width: 239.13086
+        height: 1105.8191
+      alignment: 9
+      pivot: {x: 0.46207577, y: 0.4821856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bec945bdbb4954e8b369b176043f71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front_lf
+      rect:
+        serializedVersion: 2
+        x: 2427.705
+        y: 91.288284
+        width: 284.2627
+        height: 412.26276
+      alignment: 9
+      pivot: {x: 0.4829878, y: 0.5450693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f732e524e4e181d43b6f2b32bcb1d84d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ae0e3fcb8cc6eea4f9341bdf28433b0d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 636757621449245841
+  assetBundleName: 
+  assetBundleVariant: 
