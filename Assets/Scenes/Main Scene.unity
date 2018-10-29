@@ -965,7 +965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae82a23fd75f3be42a3c651846176520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monster: {fileID: 1176629011842364, guid: d842a296979559e46a15e0c0e215762b, type: 2}
+  monster: {fileID: 1609627376226534, guid: de08c387dc2d4a0489489e7772ec0bf6, type: 2}
 --- !u!4 &465931872
 Transform:
   m_ObjectHideFlags: 0
