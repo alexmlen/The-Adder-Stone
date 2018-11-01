@@ -1,0 +1,652 @@
+fileFormatVersion: 2
+guid: db764bc28641b7d4293ea68c08e7abec
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: blinks and grips_fronth
+    21300002: blinks and grips_frontb
+    21300004: blinks and grips_frontr
+    21300006: blinks and grips_dlh
+    21300008: blinks and grips_dlb
+    21300010: blinks and grips_dlr
+    21300012: blinks and grips_frontl
+    21300014: blinks and grips_dll
+    21300016: blinks and grips_lefth
+    21300018: blinks and grips_leftb
+    21300020: blinks and grips_leftl
+    21300022: blinks and grips_leftr
+    21300024: blinks and grips_ulh
+    21300026: blinks and grips_ull
+    21300028: blinks and grips_ulr
+    21300030: blinks and grips_backh
+    21300032: blinks and grips_backl
+    21300034: blinks and grips_backr
+    21300036: blinks and grips_url
+    21300038: blinks and grips_urr
+    21300040: blinks and grips_urh
+    21300042: blinks and grips_righth
+    21300044: blinks and grips_rightr
+    21300046: blinks and grips_rightl
+    21300048: blinks and grips_rightb
+    21300050: blinks and grips_drh
+    21300052: blinks and grips_drb
+    21300054: blinks and grips_drr
+    21300056: blinks and grips_drl
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blinks and grips_frontb
+      rect:
+        serializedVersion: 2
+        x: 849.2055
+        y: 3343.2524
+        width: 401.18207
+        height: 156.32007
+      alignment: 9
+      pivot: {x: 0.48679736, y: 0.49416277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b87cb203f811c84da815700f968c4a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_frontr
+      rect:
+        serializedVersion: 2
+        x: 98.524925
+        y: 1983.2549
+        width: 171.25061
+        height: 356.39014
+      alignment: 9
+      pivot: {x: 0.668465, y: 0.47348425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0651afa079fafef44b6b921b1ccff24a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_dlh
+      rect:
+        serializedVersion: 2
+        x: 1896.8501
+        y: 3324.1907
+        width: 227.98706
+        height: 207.08423
+      alignment: 9
+      pivot: {x: 0.41076848, y: 0.47472996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f360fe5f9ebcb3f42bb672cc7238ebab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_dlb
+      rect:
+        serializedVersion: 2
+        x: 2182.7358
+        y: 2588.8726
+        width: 329.51514
+        height: 180.20898
+      alignment: 9
+      pivot: {x: 0.39987284, y: 0.5361966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd40748a25a8d6d4397f0a109eb2c204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_dlr
+      rect:
+        serializedVersion: 2
+        x: 1974.2792
+        y: 1974.0391
+        width: 236.94519
+        height: 386.25146
+      alignment: 9
+      pivot: {x: 0.5390311, y: 0.537113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f52a317fe487784b833b1ad786927f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_frontl
+      rect:
+        serializedVersion: 2
+        x: 1550.8744
+        y: 2015.699
+        width: 195.13953
+        height: 362.36255
+      alignment: 9
+      pivot: {x: 0.46185276, y: 0.48791197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7aef81d64a26e49949171bbdb4547d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_dll
+      rect:
+        serializedVersion: 2
+        x: 2549.7676
+        y: 2013.0813
+        width: 233.95898
+        height: 374.3069
+      alignment: 9
+      pivot: {x: 0.52245235, y: 0.47399262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df9b7a90c6a1254b822a5bd59a3ef5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_lefth
+      rect:
+        serializedVersion: 2
+        x: 3222.0662
+        y: 3256.6282
+        width: 132.43115
+        height: 227.98706
+      alignment: 9
+      pivot: {x: 0.4752193, y: 0.4161281}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dcaf2b506a29641be470741287b0d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_leftb
+      rect:
+        serializedVersion: 2
+        x: 3229.3413
+        y: 2755.7744
+        width: 183.19507
+        height: 144.37549
+      alignment: 9
+      pivot: {x: 0.4020779, y: 0.4552406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab67901cdf37904a8177df15df3c24f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_leftl
+      rect:
+        serializedVersion: 2
+        x: 3302.4236
+        y: 2120.1287
+        width: 236.94531
+        height: 392.22363
+      alignment: 9
+      pivot: {x: 0.47933805, y: 0.48154053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57030efe9cbfa54eacb4890224e4b68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_leftr
+      rect:
+        serializedVersion: 2
+        x: 3878.957
+        y: 2133.4744
+        width: 239.93115
+        height: 329.51514
+      alignment: 9
+      pivot: {x: 0.4690646, y: 0.5660609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08233a0c853d5440b0bbe9eb48d9988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_ull
+      rect:
+        serializedVersion: 2
+        x: 4660.509
+        y: 2224.5266
+        width: 218.97461
+        height: 371.3208
+      alignment: 9
+      pivot: {x: 0.4543504, y: 0.4564076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd72e58187e4cb648ab60ff7fc1efb5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_ulr
+      rect:
+        serializedVersion: 2
+        x: 5297.0103
+        y: 2212.95
+        width: 233.90088
+        height: 344.44604
+      alignment: 9
+      pivot: {x: 0.3419835, y: 0.47336963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ca6c3c1f42a004db22a96a7f92d9d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_backl
+      rect:
+        serializedVersion: 2
+        x: 203.72
+        y: 370.17545
+        width: 156.32
+        height: 347.43185
+      alignment: 9
+      pivot: {x: 0.40161204, y: 0.46433437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6b14cab783bd346bcd82633da48832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_backr
+      rect:
+        serializedVersion: 2
+        x: 737.154
+        y: 323.70438
+        width: 165.27838
+        height: 425.071
+      alignment: 9
+      pivot: {x: 0.5436045, y: 0.5006118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ff6db682845dc4bbae418c696995a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_url
+      rect:
+        serializedVersion: 2
+        x: 1475.0642
+        y: 391.63745
+        width: 233.90137
+        height: 347.4319
+      alignment: 9
+      pivot: {x: 0.5405512, y: 0.49466527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16aa8ef5d37dab46aecf5a2c95bb4ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_urr
+      rect:
+        serializedVersion: 2
+        x: 1946.4207
+        y: 286.88068
+        width: 218.97485
+        height: 428.0572
+      alignment: 9
+      pivot: {x: 0.40908563, y: 0.5037161}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff040dabd22556e4aa6ff43c7b4077e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_righth
+      rect:
+        serializedVersion: 2
+        x: 2849.215
+        y: 1497.4563
+        width: 117.50049
+        height: 153.33386
+      alignment: 9
+      pivot: {x: 0.5598713, y: 0.35571855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0da4fce09cfd3545850a986712428d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_rightr
+      rect:
+        serializedVersion: 2
+        x: 2819.7585
+        y: 226.55327
+        width: 236.94531
+        height: 392.22363
+      alignment: 9
+      pivot: {x: 0.4272767, y: 0.46770936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c845a8069ccd7740932d7225c7d002a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_rightl
+      rect:
+        serializedVersion: 2
+        x: 3460.7861
+        y: 275.27493
+        width: 242.91748
+        height: 329.5151
+      alignment: 9
+      pivot: {x: 0.5628016, y: 0.5818401}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f394ea01b26e3f4ab38312ce4ebd744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_rightb
+      rect:
+        serializedVersion: 2
+        x: 4018.871
+        y: 1260.819
+        width: 180.20898
+        height: 141.3894
+      alignment: 9
+      pivot: {x: 0.59169585, y: 0.5034396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3082d353bf9ab8b4bb155cee50d67054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_drb
+      rect:
+        serializedVersion: 2
+        x: 4871.999
+        y: 744.8666
+        width: 332.50146
+        height: 183.19519
+      alignment: 9
+      pivot: {x: 0.51879764, y: 0.5083836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df00f18b331b5f43a00c5d6894493db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_drr
+      rect:
+        serializedVersion: 2
+        x: 4691.3745
+        y: 254.66452
+        width: 230.97314
+        height: 374.30692
+      alignment: 9
+      pivot: {x: 0.40968177, y: 0.4149949}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdce8e541ae5d2845837ffd8a4137199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_drl
+      rect:
+        serializedVersion: 2
+        x: 5228.337
+        y: 257.3584
+        width: 236.94531
+        height: 344.44568
+      alignment: 9
+      pivot: {x: 0.5894297, y: 0.544764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3ef0a24e662ec4ca668dd688ee0b1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c4473ec2a2677e24187a0e5859441f95
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 636766269727648868
+  assetBundleName: 
+  assetBundleVariant: 
