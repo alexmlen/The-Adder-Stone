@@ -6,7 +6,7 @@ using Fungus;
 public class PlayerScript : MonoBehaviour {
 
   [SerializeField]
-	private float movespeed;
+  private float movespeed, projectileCooldown;
   [SerializeField]
   private GameObject nearestInteractable, cursor, cube;
   [SerializeField]
@@ -19,6 +19,7 @@ public class PlayerScript : MonoBehaviour {
   private Rigidbody rb;
   private bool moving;
   private float xaxis, zaxis, lastx, lastz;
+    private float count = 0;
   private Camera mainCamera;
 
 
@@ -31,6 +32,10 @@ public class PlayerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+        if (count < projectileCooldown)
+        {
+            count++;
+        }
     if(inMenu){
       return;
     }
@@ -40,9 +45,11 @@ public class PlayerScript : MonoBehaviour {
     if(!interacting && Input.GetButtonDown("Fire3") && nearestInteractable != null){
       Interact();
     }
-    if(Input.GetButtonDown("Fire1") && Input.GetButton("Fire2") && controlling){
-      //On Mouse Left Button Press & Mouse Right is held down
-      Shoot();
+    if(Input.GetButtonDown("Fire1") && Input.GetButton("Fire2") && controlling && count == projectileCooldown){
+            //On Mouse Left Button Press & Mouse Right is held down
+            count = 0;
+            Shoot();
+
     }
 	}
 
