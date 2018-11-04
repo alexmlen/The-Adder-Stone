@@ -189,12 +189,12 @@ TextureImporter:
       name: dr_2
       rect:
         serializedVersion: 2
-        x: 2185.93
-        y: 8239.834
+        x: 2184.8965
+        y: 8238.8125
         width: 194.75342
         height: 190.45703
       alignment: 9
-      pivot: {x: 0.38289478, y: 0.44716656}
+      pivot: {x: 0.3882012, y: 0.45252988}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -516,6 +516,6 @@ TextureImporter:
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
-  userData: 636766171052995083
+  userData: 636768053860316362
   assetBundleName: 
   assetBundleVariant: 

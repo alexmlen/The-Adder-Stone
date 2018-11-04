@@ -188,12 +188,12 @@ TextureImporter:
       name: left_2
       rect:
         serializedVersion: 2
-        x: 123.89909
+        x: 136.7995
         y: 7080.77
-        width: 272.3081
+        width: 259.40768
         height: 921.6279
       alignment: 9
-      pivot: {x: 0.45022863, y: 0.5183545}
+      pivot: {x: 0.4228884, y: 0.5183545}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -288,12 +288,12 @@ TextureImporter:
       name: left_7
       rect:
         serializedVersion: 2
-        x: 2471.0286
-        y: 5783.142
-        width: 567.364
-        height: 1259.4565
+        x: 2470.8042
+        y: 5783.8145
+        width: 190.60571
+        height: 749.62256
       alignment: 9
-      pivot: {x: 0.18237223, y: 0.25912598}
+      pivot: {x: 0.544033, y: 0.43446603}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -368,12 +368,12 @@ TextureImporter:
       name: left_11
       rect:
         serializedVersion: 2
-        x: 949.27234
+        x: 1026.6747
         y: 2562.091
-        width: 444.31335
+        width: 366.911
         height: 1377.4421
       alignment: 9
-      pivot: {x: 0.5384211, y: 0.48815784}
+      pivot: {x: 0.44104788, y: 0.48815784}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -495,6 +495,6 @@ TextureImporter:
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
-  userData: 636766173309256888
+  userData: 636769000665917276
   assetBundleName: 
   assetBundleVariant: 

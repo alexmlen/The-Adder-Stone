@@ -64,6 +64,7 @@ public class Monster : MonoBehaviour {
         {
             this.gameObject.transform.LookAt(player.gameObject.transform);
             agent.destination = player.gameObject.transform.position;
+            //agent.Warp(player.gameObject.transform.position);
         }
         else if(state == ENEMY_STATES.STUNNED)
         {

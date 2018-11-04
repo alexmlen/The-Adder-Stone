@@ -31,6 +31,9 @@ TextureImporter:
     21300052: blinks and grips_drb
     21300054: blinks and grips_drr
     21300056: blinks and grips_drl
+    21300058: blinks and grips_0
+    21300060: blinks and grips_1
+    21300062: blinks and grips_2
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -580,12 +583,12 @@ TextureImporter:
       name: blinks and grips_drb
       rect:
         serializedVersion: 2
-        x: 4871.999
-        y: 744.8666
-        width: 332.50146
-        height: 183.19519
+        x: 4873.632
+        y: 746.1886
+        width: 332.50098
+        height: 183.19507
       alignment: 9
-      pivot: {x: 0.51879764, y: 0.5083836}
+      pivot: {x: 0.58478594, y: 0.4908735}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -636,6 +639,66 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: blinks and grips_0
+      rect:
+        serializedVersion: 2
+        x: 3681.8157
+        y: 2817.8354
+        width: 687.84985
+        height: 666.947
+      alignment: 9
+      pivot: {x: 0.5091003, y: 0.49803704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4282ebb5103e2794aa589eb0cd5d3fee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_1
+      rect:
+        serializedVersion: 2
+        x: 3213.758
+        y: 1105.5934
+        width: 690.83594
+        height: 669.933
+      alignment: 9
+      pivot: {x: 0.4425681, y: 0.4976714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51390a73a7c11ac4ea99335108ac9311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blinks and grips_2
+      rect:
+        serializedVersion: 2
+        x: 2230.8206
+        y: 2991.334
+        width: 660.9746
+        height: 660.9746
+      alignment: 9
+      pivot: {x: 0.50785494, y: 0.49800026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe056a26635fbf149b82b43ecef90783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -647,6 +710,6 @@ TextureImporter:
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
-  userData: 636766269727648868
+  userData: 636769039281071712
   assetBundleName: 
   assetBundleVariant: 

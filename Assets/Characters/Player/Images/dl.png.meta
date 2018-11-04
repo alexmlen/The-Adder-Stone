@@ -270,10 +270,10 @@ TextureImporter:
         serializedVersion: 2
         x: 408.20325
         y: 5243.212
-        width: 445.7874
-        height: 815.0371
+        width: 299.0625
+        height: 599.84375
       alignment: 9
-      pivot: {x: 0.32256815, y: 0.3512577}
+      pivot: {x: 0.48082528, y: 0.4772711}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -390,10 +390,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1947.891
         y: 2445.7083
-        width: 712.7345
-        height: 1724.49
+        width: 381.09363
+        height: 1244.375
       alignment: 9
-      pivot: {x: 0.27515015, y: 0.3602758}
+      pivot: {x: 0.5145953, y: 0.49928033}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -495,6 +495,6 @@ TextureImporter:
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
-  userData: 636766168870839584
+  userData: 636768031486481049
   assetBundleName: 
   assetBundleVariant: 
